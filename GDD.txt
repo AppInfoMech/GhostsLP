@@ -61,4 +61,4 @@ Referências:
 	CLASS -------------------------	https://docs.microsoft.com/pt-br/dotnet/csharp/language-reference/keywords/class
 	WHILE -------------------------	https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/while
 	OBJECT ORIENTED PROG ----------	https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/concepts/object-oriented-programming
-
+	BOOLEAN LOGICAL OPER ---------- https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/boolean-logical-operators

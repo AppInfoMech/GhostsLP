@@ -80,6 +80,6 @@ namespace ghosts
         //"Getters"
         public string GetName1() => name1;
         public string GetName2() => name2;
-        public bool GetMode() => quickmode;
+        public bool QuickMode() => quickmode;
     }
 }
