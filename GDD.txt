@@ -53,3 +53,12 @@ o primeiro jogador a libertar 3 fantasmas (quaisquer) ganha. Quando tivermos o j
 proponho fazermo-lo.
 
 
+Referências:
+
+	SLEEP -------------------------	https://www.dotnetperls.com/sleep
+	IF/ELSE IF/ELSE ---------------	https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/if-else
+	BOOL --------------------------	https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/bool
+	CLASS -------------------------	https://docs.microsoft.com/pt-br/dotnet/csharp/language-reference/keywords/class
+	WHILE -------------------------	https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/while
+	OBJECT ORIENTED PROG ----------	https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/concepts/object-oriented-programming
+
