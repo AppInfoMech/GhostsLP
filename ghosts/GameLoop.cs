@@ -19,7 +19,7 @@ namespace ghosts
                 renderer.Render(board);
 
                 Positions nextMove;
-                if (board.NextTurn == State.X)
+                if (board.NextTurn == State.P1)
                     nextMove = player1.GetPosition(board);
                 else
                     nextMove = player2.GetPosition(board);

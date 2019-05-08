@@ -44,8 +44,8 @@ namespace ghosts
         {
             switch (state)
             {
-                case State.O: return 'O';
-                case State.X: return 'X';
+                case State.P2: return '2';
+                case State.P1: return '1';
                 default: return ' ';
             }
         }
@@ -54,8 +54,8 @@ namespace ghosts
         {
             switch (winner)
             {
-                case State.O:
-                case State.X:
+                case State.P2:
+                case State.P1:
                     Console.WriteLine(SymbolFor(winner) + " Wins!");
                     break;
                 case State.Undecided:

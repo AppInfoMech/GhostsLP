@@ -8,8 +8,8 @@ namespace ghosts
     {
         public State Check(Board board)
         {
-            if (CheckForWin(board, State.X)) return State.X;
-            if (CheckForWin(board, State.O)) return State.O;
+            if (CheckForWin(board, State.P1)) return State.P1;
+            if (CheckForWin(board, State.P2)) return State.P2;
             return State.Undecided;
         }
 
@@ -18,6 +18,7 @@ namespace ghosts
             for (int row = 0; row < 3; row++)
                 if (AreAll(board, new Positions[] {
                         new Positions(row, 0),
+
                         new Positions(row, 1),
                         new Positions(row, 2) }, player))
                     return true;
