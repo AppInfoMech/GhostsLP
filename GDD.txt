@@ -64,4 +64,5 @@ Referências:
 	OBJECT ORIENTED PROG ----------	https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/concepts/object-oriented-programming
 	BOOLEAN LOGICAL OPER ---------- https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/boolean-logical-operators
 	XML --------------------------- https://docs.microsoft.com/pt-br/dotnet/csharp/codedoc
-
+	ENUMERATION ------------------- https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/enum
+	LOGICAL OPERATORS ------------- https://www.tutlane.com/tutorial/csharp/csharp-logical-operators-with-examples
