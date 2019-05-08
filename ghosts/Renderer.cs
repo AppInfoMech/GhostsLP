@@ -6,12 +6,17 @@ namespace ghosts
 {
     class Renderer
     {
-        public void Render(Board board)
+        public void Render(Board board, bool loop)
         {
-            char[,] symbols = new char[7, 7];
+            char[,] symbols = new char[6, 6];
             for (int row = 0; row < 6; row++)
                 for (int column = 0; column < 6; column++)
-                    symbols[row, column] = SymbolFor(board.GetState(new Positions(row, column)));
+                    if (loop == true)
+                    {
+                        symbols[row, column] = SymbolFor(board.Movestate(new Positions(row, column)));
+                    }
+                    else
+                        symbols[row, column] = SymbolFor(board.GetState(new Positions(row, column)));
                     
             Console.WriteLine("");
 

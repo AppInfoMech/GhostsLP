@@ -27,9 +27,10 @@ namespace ghosts
                       Console.WriteLine("That is not a legal move.");
               }*/
             gameLoop.GameSetup(board, renderer, player1, player2);
-        
+            gameLoop.Gamestart(board, renderer, player1, player2);
 
-            renderer.Render(board);
+
+            renderer.Render(board,gameLoop.Gameloop);
             renderer.RenderResults(winChecker.Check(board));
 
             Console.ReadKey();

@@ -6,6 +6,11 @@ namespace ghosts
 {
     class Board
     {
+        public bool up = false;
+        public bool down = false;
+        public bool right = false;
+        public bool left = false;
+
         private State[,] state;
         public State NextTurn { get; private set; }
 
@@ -31,6 +36,24 @@ namespace ghosts
         }
         public State Movestate(Positions position)
         {
+         
+            if(up == true)
+            {
+                return state[position.Row + 1, position.Column];
+            }
+             if(down == true)
+             {
+                return state[position.Row - 1, position.Column];
+            }
+             if(right ==true)
+             {
+                return state[position.Row, position.Column + 1];
+            }
+            if (left == true)
+            {
+                return state[position.Row, position.Column - 1];
+            }
+
                 return state[position.Row +1 , position.Column];
         }
 

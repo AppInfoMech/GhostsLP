@@ -7,7 +7,7 @@ namespace ghosts
     class Player
     {
         /// <summary>
-        /// This function gets the value of the position of the object.
+        /// This function gets the value of the position of the object for the setup of the game.
         /// </summary>
         /// <param name="board"></param>
         /// <returns></returns>
@@ -19,6 +19,51 @@ namespace ghosts
             Positions desiredCoordinate = PositionForNumber(position);
             return desiredCoordinate;
         }
+        /// <summary>
+        ///  This function gets the value of the position of the object for the Gameloop.
+        /// </summary>
+        /// <param name="board"></param>
+        /// <returns></returns>
+        public Positions GetLoopPosition(Board board)
+        {
+            Console.WriteLine("");
+
+            Console.WriteLine("What ghost do you want to move?");
+            int position = Convert.ToInt32(Console.ReadLine());
+            Positions desiredCoordinate = PositionForNumber(position);
+
+            Console.WriteLine("up -> u");
+            Console.WriteLine("down -> d");
+            Console.WriteLine("right -> r");
+            Console.WriteLine("left -> l");
+            Console.WriteLine("Where do you want to move it?");
+            char choice = Convert.ToChar(Console.ReadLine());
+            switch (choice)
+            {
+                case 'u':
+                    board.up = true;
+                    return desiredCoordinate;
+
+                case 'd':
+                    board.down = true;
+                    return desiredCoordinate;
+
+                case 'r':
+                    board.right = true;
+                    return desiredCoordinate;
+
+                case 'l':
+                    board.left = true;
+                    return desiredCoordinate;
+
+                default:
+                    return null;
+            }
+
+
+             
+        }
+
         /// <summary>
         /// This function gives the value of the desired location of the user.
         /// </summary>
