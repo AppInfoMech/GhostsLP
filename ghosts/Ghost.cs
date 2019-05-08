@@ -6,6 +6,25 @@ namespace ghosts
 {
     class Ghost
     {
-        enum Color {Red, Blue, yellow};
+        //INITIALIZE VARIABLES
+        private int GhostType;
+
+        public Ghost(int GhostType)
+        {
+            Colors Colors = new Colors();
+
+            if (GhostType == Colors.Red())
+            {
+                //CENAS DO FANTASMA VERMELHO
+            }
+            else if (GhostType == Colors.Blue())
+            {
+                //CENAS DO FANTASMA AZUL
+            }
+            else if (GhostType == Colors.Yellow())
+            {
+                //CENAS DO FANTASMA AMARELO
+            }
+        }
     }
 }
