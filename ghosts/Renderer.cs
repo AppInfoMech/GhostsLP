@@ -11,7 +11,7 @@ namespace ghosts
             char[,] symbols = new char[7, 7];
             for (int row = 0; row < 6; row++)
                 for (int column = 0; column < 6; column++)
-                    symbols[row, column] = SymbolFor(board.Getstate(new Positions(row, column)));
+                    symbols[row, column] = SymbolFor(board.GetState(new Positions(row, column)));
                     
             Console.WriteLine("");
 
