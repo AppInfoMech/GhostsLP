@@ -15,6 +15,7 @@ namespace ghosts
         {
             Console.WriteLine("");
             int position = Convert.ToInt32(Console.ReadLine());
+
             Positions desiredCoordinate = PositionForNumber(position);
             return desiredCoordinate;
         }
@@ -23,6 +24,7 @@ namespace ghosts
         /// </summary>
         /// <param name="position"></param>
         /// <returns></returns>
+
         private Positions PositionForNumber(int position)
         {
             switch (position)

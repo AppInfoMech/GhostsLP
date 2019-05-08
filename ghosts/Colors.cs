@@ -4,7 +4,5 @@ using System.Text;
 
 namespace ghosts
 {
-    class Colors
-    {
-    }
+    enum Color { Red, Blue, yellow };
 }

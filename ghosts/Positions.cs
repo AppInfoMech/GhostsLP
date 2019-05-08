@@ -6,8 +6,8 @@ namespace ghosts
 {
     class Positions
     {
-        public int Row { get; }
-        public int Column { get; }
+        public int Row { get; set; }
+        public int Column { get; set; }
 
         public Positions(int row, int column)
         {

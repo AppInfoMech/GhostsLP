@@ -11,7 +11,7 @@ namespace ghosts
 
         public Board()
         {
-            state = new State[6, 6];
+            state = new State[7, 7];
             NextTurn = State.P1;
         }
 
@@ -28,6 +28,10 @@ namespace ghosts
             state[position.Row, position.Column] = newState;
             SwitchNextTurn();
             return true;
+        }
+        public State Movestate(Positions position)
+        {
+                return state[position.Row +1 , position.Column];
         }
 
         private void SwitchNextTurn()

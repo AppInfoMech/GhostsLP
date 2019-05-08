@@ -6,6 +6,6 @@ namespace ghosts
 {
     class Ghost
     {
-        enum Color {Red, Blue, yellow};
+ //       enum Color {Red, Blue, yellow};
     }
 }
