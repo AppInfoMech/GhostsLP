@@ -12,7 +12,7 @@ namespace ghosts
         public Board()
         {
             state = new State[6, 6];
-            NextTurn = State.X;
+            NextTurn = State.P1;
         }
 
         public State GetState(Positions position)
@@ -32,8 +32,8 @@ namespace ghosts
 
         private void SwitchNextTurn()
         {
-            if (NextTurn == State.X) NextTurn = State.O;
-            else NextTurn = State.X;
+            if (NextTurn == State.P1) NextTurn = State.P2;
+            else NextTurn = State.P1;
         }
     }
 }

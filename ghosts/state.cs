@@ -4,5 +4,5 @@ using System.Text;
 
 namespace ghosts
 {
-    public enum State {Undecided,X,O}
+    public enum State { Undecided, P1, P2 };
 }
