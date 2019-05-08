@@ -1,4 +1,5 @@
 Versão 0.00 - Versão Base com as regras base e ideias inicias de como proceder com o projeto.
+Versão 0.01 - Versão com a adição de uma secção de referências.
 
 
 
@@ -62,3 +63,5 @@ Referências:
 	WHILE -------------------------	https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/while
 	OBJECT ORIENTED PROG ----------	https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/concepts/object-oriented-programming
 	BOOLEAN LOGICAL OPER ---------- https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/boolean-logical-operators
+	XML --------------------------- https://docs.microsoft.com/pt-br/dotnet/csharp/codedoc
+

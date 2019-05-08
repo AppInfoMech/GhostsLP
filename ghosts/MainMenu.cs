@@ -4,15 +4,64 @@ using System.Text;
 
 namespace ghosts
 {
+    /// <summary>
+    /// This class creates the main menu that appears to the players before
+    /// the actual game begins
+    /// </summary>
+    /// <remarks>
+    /// In this class, the players are asked for their name and for the mode
+    /// they wish to play
+    /// </remarks>
+    /// <returns>
+    /// Returns the name of both players and the selected mode
+    /// </returns>
     class MainMenu
     {
         //Declare Variables
+        /// <summary>
+        /// This variable is where we save Player 1's chosen name
+        /// </summary>
+        /// <remarks>
+        /// The purpose of this is so that we're able to address the player
+        /// properly instead of resorting to a generic Player 1
+        /// </remarks>
         private string name1;
+        /// <summary>
+        /// This variable is where we save Player 2's chosen name
+        /// </summary>
+        /// <remarks>
+        /// The purpose of this is so that we're able to address the player
+        /// properly instead of resorting to a generic Player 2
+        /// </remarks>
         private string name2;
+        /// <summary>
+        /// This variable is used for the "if" that tweaks the bool
+        /// "quickmode" depending on the player's choice.
+        /// </summary>
+        /// <remarks>
+        /// It's not used again so we don't return it.
+        /// </remarks>
         private string choice;
+        /// <summary>
+        /// This bool detects if the player chose to play in Quick Mode or
+        /// not (Regular)
+        /// </summary>
+        /// <remarks>
+        /// It is then used in CheckWin.cs to confirm the Win-Conditions.
+        /// </remarks>
         private bool quickmode;
 
         //Create Constructor
+        /// <summary>
+        /// The constructor that presents the player with the questions and
+        /// collects their answers to variables that can then be used for the 
+        /// rest of the game
+        /// </summary>
+        /// <remarks>
+        /// "Select Mode" is under a loop so we're able to warn the player
+        /// that his choice (ReadLine) is not valid and for him to retry a
+        /// valid value instead of crashing or quitting the program.
+        /// </remarks>
         public MainMenu()
         {
             Console.WriteLine("Hello there and welcome to 18 Ghosts!");
@@ -78,8 +127,29 @@ namespace ghosts
         }
 
         //"Getters"
+        /// <summary>
+        ///"Getter" - Makes the variables usable throught the rest of the 
+        ///program
+        /// </summary>
+        /// <returns>
+        /// name1 - Player 1's chosen name
+        /// </returns>
         public string GetName1() => name1;
+        /// <summary>
+        ///"Getter" - Makes the variables usable throught the rest of the 
+        ///program
+        /// </summary>
+        /// <returns>
+        /// name2 - Player 2's chosen name
+        /// </returns>
         public string GetName2() => name2;
+        /// <summary>
+        ///"Getter" - Makes the variables usable throught the rest of the 
+        ///program
+        /// </summary>
+        /// <returns>
+        /// quickmode - If the players chose to play on Quick mode.
+        /// </returns>
         public bool QuickMode() => quickmode;
     }
 }
