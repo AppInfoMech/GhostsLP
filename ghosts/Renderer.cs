@@ -46,7 +46,7 @@ namespace ghosts
             {
                 case State.O: return 'O';
                 case State.X: return 'X';
-                default: return ' ';
+                default: return '\u156E';
             }
         }
 

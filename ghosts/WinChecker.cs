@@ -40,7 +40,7 @@ namespace ghosts
                     new Positions(1, 1),
                     new Positions(0, 2) }, player))
                 return true;
-
+            
             return false;
         }
 
