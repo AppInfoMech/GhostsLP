@@ -6,7 +6,33 @@ namespace ghosts
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Board board = new Board();
+            WinChecker winChecker = new WinChecker();
+            Renderer renderer = new Renderer();
+            Player player1 = new Player();
+            Player player2 = new Player();
+            GameLoop gameLoop = new GameLoop();
+
+            /*  while (!winChecker.IsDraw(board) && winChecker.Check(board) == State.Undecided)
+              {
+                  renderer.Render(board);
+
+                  Positions nextMove;
+                  if (board.NextTurn == State.X)
+                      nextMove = player1.GetPosition(board);
+                  else
+                      nextMove = player2.GetPosition(board);
+
+                  if (!board.SetState(nextMove, board.NextTurn))
+                      Console.WriteLine("That is not a legal move.");
+              }*/
+            gameLoop.GameSetup(board, renderer, player1, player2);
+        
+
+            renderer.Render(board);
+            renderer.RenderResults(winChecker.Check(board));
+
+            Console.ReadKey();
         }
     }
 }
