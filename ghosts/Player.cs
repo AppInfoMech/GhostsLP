@@ -6,6 +6,11 @@ namespace ghosts
 {
     class Player
     {
+        /// <summary>
+        /// This function gets the value of the position of the object.
+        /// </summary>
+        /// <param name="board"></param>
+        /// <returns></returns>
         public Positions GetPosition(Board board)
         {
             Console.WriteLine("");
@@ -13,7 +18,11 @@ namespace ghosts
             Positions desiredCoordinate = PositionForNumber(position);
             return desiredCoordinate;
         }
-
+        /// <summary>
+        /// This function gives the value of the desired location of the user.
+        /// </summary>
+        /// <param name="position"></param>
+        /// <returns></returns>
         private Positions PositionForNumber(int position)
         {
             switch (position)
