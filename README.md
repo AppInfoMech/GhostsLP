@@ -1,6 +1,9 @@
 # Primeiro Projeto de LP1: 18 Ghosts
 ---
 
+**Repositório Público disponível** [aqui](https://github.com/AppInfoMech/GhostsLP)
+
+---
 ## Autores:
 * João Cerqueira (21802495)
 * João Dias (21803573)
@@ -20,6 +23,7 @@
 * BlueGhost.cs
 * RedGhost.cs
 * YellowGhost.cs
+* Documentação HTML
 * XML commentary
 * Bug Fixes
 
