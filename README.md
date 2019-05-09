@@ -21,6 +21,7 @@
 * RedGhost.cs
 * YellowGhost.cs
 * XML commentary
+* HTML Documentation (Doxygen)
 * Bug Fixes
 
 
