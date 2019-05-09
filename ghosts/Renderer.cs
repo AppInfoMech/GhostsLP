@@ -31,33 +31,33 @@ namespace ghosts
              Console.WriteLine("");
             // drawin a guide board for the player to be able to see the 
             //positions.
-             Console.WriteLine($"| 21 | 22 | 23 | 24 | 25 |   |");
+             Console.WriteLine($"| 19 | 20 | BP | 21 | 22 |   |");
              Console.WriteLine("+----+----+----+----+----+   +");
-             Console.WriteLine($"| 16 | 17 | 18 | 19 | 20 |   |");
+             Console.WriteLine($"| 14 | 15 | 16 | 17 | 18 |   |");
              Console.WriteLine("+----+----+----+----+----+   +");
-             Console.WriteLine($"| 11 | 12 | 13 | 14 | 15 |   |");
+             Console.WriteLine($"| YP | 10 | 11 | 12 | 13 |   |");
              Console.WriteLine("+----+----+----+----+----+   +");
-             Console.WriteLine($"| 6  | 7  | 8  | 9  | 10 |   |");
+             Console.WriteLine($"| 5  | 6  | 7  | 8  | 9  |   |");
              Console.WriteLine("+----+----+----+----+----+   +");
-             Console.WriteLine($"| 1  | 2  | 3  | 4  | 5  |   |");
+             Console.WriteLine($"| 1  | 2  | RP | 3  | 4  |   |");
 
              Console.WriteLine("");
              Console.WriteLine("");
 
             Console.WriteLine($"| {symbols[0, 0]} | {symbols[0, 1]} | " +
-                $"{symbols[0, 2]} | {symbols[0, 3]} | {symbols[0, 4]} |   |");
-            Console.WriteLine("+---+---+---+---+---+---+");
+                $"\u156C | {symbols[0, 3]} | {symbols[0, 4]} |   |");
+            Console.WriteLine("+---+---+---+---+---+   +");
             Console.WriteLine($"| {symbols[1, 0]} | {symbols[1, 1]} | " +
                 $"{symbols[1, 2]} | {symbols[1, 3]} | {symbols[1, 4]} |   |");
-            Console.WriteLine("+---+---+---+---+---+---+");
-            Console.WriteLine($"| {symbols[2, 0]} | {symbols[2, 1]} | " +
+            Console.WriteLine("+---+---+---+---+---+   +");
+            Console.WriteLine($"| \u156E | {symbols[2, 1]} | " +
                 $"{symbols[2, 2]} | {symbols[2, 3]} | {symbols[2, 4]} |   |");
-            Console.WriteLine("+---+---+---+---+---+---+");
+            Console.WriteLine("+---+---+---+---+---+   +");
             Console.WriteLine($"| {symbols[3, 0]} | {symbols[3, 1]} | " +
                 $"{symbols[3, 2]} | {symbols[3, 3]} | {symbols[3, 4]} |   |");
-            Console.WriteLine("+---+---+---+---+---+---+");
+            Console.WriteLine("+---+---+---+---+---+   +");
             Console.WriteLine($"| {symbols[4, 0]} | {symbols[4, 1]} | " +
-                $"{symbols[4, 2]} | {symbols[4, 3]} | {symbols[4, 4]} |   |");
+                $"\u156B | {symbols[4, 3]} | {symbols[4, 4]} |   |");
         }
         /// <summary>
         /// Looks for the corrent player then gets his respective simbol

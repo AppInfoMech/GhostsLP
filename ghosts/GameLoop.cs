@@ -14,7 +14,13 @@ namespace ghosts
         public GameLoop ()
         {
         }
-
+        /// <summary>
+        /// Forms a loop to place the ghosts.
+        /// </summary>
+        /// <param name="board"></param>
+        /// <param name="renderer"></param>
+        /// <param name="player1"></param>
+        /// <param name="player2"></param>
         public void Gamestart(Board board, Renderer renderer, Player player1, 
             Player player2)
         {
@@ -34,6 +40,13 @@ namespace ghosts
 
             }
         }
+        /// <summary>
+        /// Forms a loop to play the game
+        /// </summary>
+        /// <param name="board"></param>
+        /// <param name="renderer"></param>
+        /// <param name="player1"></param>
+        /// <param name="player2"></param>
         public void GameSetup(Board board, Renderer renderer, Player player1, 
             Player player2)
         {
