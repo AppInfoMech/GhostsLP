@@ -13,7 +13,7 @@ namespace ghosts
                 for (int column = 0; column < 6; column++)
                     if (loop == true)
                     {
-                        symbols[row, column] = SymbolFor(board.Movestate(new 
+                        symbols[row, column] = SymbolFor(board.MoveState(new 
                             Positions(row, column)));
                     }
                     else
@@ -46,6 +46,7 @@ namespace ghosts
              Console.WriteLine($"| {symbols[3, 0]} | {symbols[3, 1]} | {symbols[3, 2]} | {symbols[3, 3]} | {symbols[3, 4]} |   |");
              Console.WriteLine("+---+---+---+---+---+---+");
              Console.WriteLine($"| {symbols[4, 0]} | {symbols[4, 1]} | {symbols[4, 2]} | {symbols[4, 3]} | {symbols[4, 4]} |   |");*/
+
 
 
 

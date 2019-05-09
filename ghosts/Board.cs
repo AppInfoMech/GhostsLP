@@ -98,7 +98,8 @@ namespace ghosts
             SwitchNextTurn();
             return true;
         }
-        /*public State Movestate(Positions position)
+
+        public State MoveState(Positions position)
         {
          
             if(up == true)
@@ -119,7 +120,7 @@ namespace ghosts
             }
 
                 return state[position.Row +1 , position.Column];
-        }*/
+        }
 
         private void SwitchNextTurn()
         {

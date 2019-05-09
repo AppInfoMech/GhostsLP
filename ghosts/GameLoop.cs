@@ -11,7 +11,7 @@ namespace ghosts
         public GameLoop ()
         {
         }
-        public void  Gamestart(Board board, Renderer renderer, Player player1, Player player2)
+        public void Gamestart(Board board, Renderer renderer, Player player1, Player player2)
         {
             Gameloop = true;
             while (true)
