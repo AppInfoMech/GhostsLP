@@ -57,7 +57,7 @@ namespace ghosts
         /// Bool used to create the Game-Loop. Turns false at win-conditions
         /// to end the game.
         /// </summary>
-        private bool running; //FAKE BOOL... Edit once Game Loop is done
+        private bool running;
 
 
 

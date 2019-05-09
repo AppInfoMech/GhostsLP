@@ -14,15 +14,19 @@ namespace ghosts
         private State[,] state;
         public State NextTurn { get;  private set; }
 
+        /// <summary>
+        /// This class will setup the board so we can then render it and 
+        /// start the game.
+        /// </summary>
         public Board()
         {
-            //Initialize colors so I can use the Getters
+            //INITIALIZE COLORS CLASS SO I CAN USE THE GETTERS
             Colors colors = new Colors();
 
-            //Tile Array in order to arrange the board
+            //BI-DIMENSIONAL TILE ARRAY TO ARRANGE THE BOARD
             Tile[,] tiles = new Tile[5, 5];
 
-            //For loop in order to create a ordered 5 by 5 board
+            ///FOR LOOP TO CREATE A 5 BY 5 ARRAY
             for (int x = 0; x < 5; x++)
             {
                 for (int y = 0; y < 5; y++)
@@ -43,8 +47,7 @@ namespace ghosts
              * 
             */
 
-            //Gave colours to the board to be used when setting the board at
-            //the beginning of the game.
+            //GIVES EACH TILE A COLOUR TO USE WHEN SETTING UP THE GAME
             tiles[0,0].SetColor(colors.Blue());
             tiles[0,1].SetColor(colors.Red());
             //tiles[0,2] - Portal Room
@@ -76,11 +79,6 @@ namespace ghosts
             tiles[4,4].SetColor(colors.Yellow());
 
             
-
-
-
-
-
             state = new State[7, 7];
             NextTurn = State.P1;
         }
@@ -93,7 +91,8 @@ namespace ghosts
         public bool SetState(Positions position, State newState)
         {
             if (newState != NextTurn) return false;
-            if (state[position.Row, position.Column] != State.Undecided) return false;
+            if (state[position.Row, position.Column] != State.Undecided)
+                return false;
 
             state[position.Row, position.Column] = newState;
             SwitchNextTurn();
