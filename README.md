@@ -23,7 +23,6 @@
 * BlueGhost.cs
 * RedGhost.cs
 * YellowGhost.cs
-* Documentação HTML
 * XML commentary
 * HTML Documentation (Doxygen)
 * Bug Fixes
