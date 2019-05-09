@@ -29,8 +29,8 @@ namespace ghosts
                              (new Positions(row, column)));
 
              Console.WriteLine("");
-            // drawin a guide board for the player to be able to see the 
-            //positions.
+            // Drawing a guide board for the player to be able to see the 
+            // positions.
              Console.WriteLine($"| 19 | 20 | BP | 21 | 22 |   |");
              Console.WriteLine("+----+----+----+----+----+   +");
              Console.WriteLine($"| 14 | 15 | 16 | 17 | 18 |   |");
