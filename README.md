@@ -75,41 +75,41 @@
 
 * Documentação:
 
- * [Arrays](https://www.tutorialspoint.com/csharp/csharp_arrays.htm)
+  * [Arrays](https://www.tutorialspoint.com/csharp/csharp_arrays.htm)
 
- * [Bool](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/bool)
+  * [Bool](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/bool)
 
- * [Boolean Logical Operators](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/boolean-logical-operators)
+  * [Boolean Logical Operators](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/boolean-logical-operators)
 
- * [Class](https://docs.microsoft.com/pt-br/dotnet/csharp/language-reference/keywords/class)
+  * [Class](https://docs.microsoft.com/pt-br/dotnet/csharp/language-reference/keywords/class)
 
- * [Class Inheritance](https://exceptionnotfound.net/modeling-battleship-in-csharp-components-and-setup/)
+  * [Class Inheritance](https://exceptionnotfound.net/modeling-battleship-in-csharp-components-and-setup/)
 
- * [Enumeration](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/enum)
+  * [Enumeration](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/enum)
 
- * [For](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/for)
+  * [For](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/for)
 
- * [Getter-Setter](https://stackoverflow.com/questions/17881091/getter-and-setter-declaration-in-net)
+  * [Getter-Setter](https://stackoverflow.com/questions/17881091/getter-and-setter-declaration-in-net)
 
- * [If / Else If / Else](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/if-else)
+  * [If / Else If / Else](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/if-else)
 
- * [Logical Operators](https://www.tutlane.com/tutorial/csharp/csharp-logical-operators-with-examples)
+  * [Logical Operators](https://www.tutlane.com/tutorial/csharp/csharp-logical-operators-with-examples)
 
- * [Multidimensional Arrays](https://www.tutorialspoint.com/csharp/csharp_multi_dimensional_arrays.htm)
+  * [Multidimensional Arrays](https://www.tutorialspoint.com/csharp/csharp_multi_dimensional_arrays.htm)
 
- * [Object Oriented Programming](https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/concepts/object-oriented-programming)
+  * [Object Oriented Programming](https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/concepts/object-oriented-programming)
 
- * [Sleep](https://www.dotnetperls.com/sleep)
+  * [Sleep](https://www.dotnetperls.com/sleep)
 
- * [While](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/while)
-
- * [XML](https://docs.microsoft.com/pt-br/dotnet/csharp/codedoc)
+  * [While](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/while)
+  
+  * [XML](https://docs.microsoft.com/pt-br/dotnet/csharp/codedoc)
 
 * Colegas que ajudaram:
 
- * Guilherme Carvalho (21803633)
- * Lucas Viana (21805095)
- *  Rafael Castro e Silva (21805637)  
+  * Guilherme Carvalho (21803633)
+  * Lucas Viana (21805095)
+  * Rafael Castro e Silva (21805637)  
 
 
 * Código Aberto Reutilizado:
