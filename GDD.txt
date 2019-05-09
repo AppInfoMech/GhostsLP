@@ -1,5 +1,6 @@
 Versão 0.00 - Versão Base com as regras base e ideias inicias de como proceder com o projeto.
 Versão 0.01 - Versão com a adição de uma secção de referências.
+Versão 0.02 - Versão com a adição de uma secção de agradecimentos para contribuidores externos.
 
 
 
@@ -66,3 +67,13 @@ Referências:
 	XML --------------------------- https://docs.microsoft.com/pt-br/dotnet/csharp/codedoc
 	ENUMERATION ------------------- https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/enum
 	LOGICAL OPERATORS ------------- https://www.tutlane.com/tutorial/csharp/csharp-logical-operators-with-examples
+	ARRAYS ------------------------ https://www.tutorialspoint.com/csharp/csharp_arrays.htm
+	MULTIDIMENSIONAL ARRAYS ------- https://www.tutorialspoint.com/csharp/csharp_multi_dimensional_arrays.htm
+	FOR --------------------------- https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/for
+
+
+Special Thanks to: 
+	Lucas
+	Rafael
+	Guilherme
+
