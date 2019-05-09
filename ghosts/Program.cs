@@ -9,7 +9,6 @@ namespace ghosts
         {
             Console.OutputEncoding = Encoding.UTF8;
             Board board = new Board();
-            WinChecker winChecker = new WinChecker();
             Renderer renderer = new Renderer();
             Player player1 = new Player();
             Player player2 = new Player();
@@ -33,7 +32,6 @@ namespace ghosts
 
 
             renderer.Render(board,gameLoop.Gameloop);
-            renderer.RenderResults(winChecker.Check(board));
 
             Console.ReadKey();
         }
