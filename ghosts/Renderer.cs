@@ -13,10 +13,12 @@ namespace ghosts
                 for (int column = 0; column < 6; column++)
                     if (loop == true)
                     {
-                        symbols[row, column] = SymbolFor(board.Movestate(new Positions(row, column)));
+                        symbols[row, column] = SymbolFor(board.Movestate(new 
+                            Positions(row, column)));
                     }
                     else
-                        symbols[row, column] = SymbolFor(board.GetState(new Positions(row, column)));
+                        symbols[row, column] = SymbolFor(board.GetState(new 
+                            Positions(row, column)));
                     
             Console.WriteLine("");
 
