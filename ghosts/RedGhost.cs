@@ -4,7 +4,15 @@ using System.Text;
 
 namespace ghosts
 {
-    class RedGhost
+    public class RedGhost : Ghost
     {
+        public RedGhost()
+        {
+
+        }
+
+        bool spawnRed = true;
+        bool spawnBlue = false;
+        bool spawnYellow = false;
     }
 }

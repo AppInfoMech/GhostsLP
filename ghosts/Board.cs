@@ -76,11 +76,6 @@ namespace ghosts
             tiles[4,4].SetColor(colors.Yellow());
 
             
-
-
-
-
-
             state = new State[7, 7];
             NextTurn = State.P1;
         }
@@ -93,7 +88,8 @@ namespace ghosts
         public bool SetState(Positions position, State newState)
         {
             if (newState != NextTurn) return false;
-            if (state[position.Row, position.Column] != State.Undecided) return false;
+            if (state[position.Row, position.Column] != State.Undecided)
+                return false;
 
             state[position.Row, position.Column] = newState;
             SwitchNextTurn();
