@@ -12,7 +12,7 @@ namespace ghosts
         public bool left = false;
 
         private State[,] state;
-        public State NextTurn { get; private set; }
+        public State NextTurn { get;  private set; }
 
         /// <summary>
         /// This class will setup the board so we can then render it and 
@@ -98,7 +98,7 @@ namespace ghosts
             SwitchNextTurn();
             return true;
         }
-        public State Movestate(Positions position)
+        /*public State Movestate(Positions position)
         {
          
             if(up == true)
@@ -119,7 +119,7 @@ namespace ghosts
             }
 
                 return state[position.Row +1 , position.Column];
-        }
+        }*/
 
         private void SwitchNextTurn()
         {

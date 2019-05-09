@@ -43,19 +43,16 @@ namespace ghosts
             switch (choice)
             {
                 case 'u':
-                    board.up = true;
+                    desiredCoordinate.Row = desiredCoordinate.Row + 1;
                     return desiredCoordinate;
 
                 case 'd':
-                    board.down = true;
                     return desiredCoordinate;
-
+                     
                 case 'r':
-                    board.right = true;
                     return desiredCoordinate;
 
                 case 'l':
-                    board.left = true;
                     return desiredCoordinate;
 
                 default:

@@ -16,6 +16,8 @@ namespace ghosts
             Gameloop = true;
             while (true)
             {
+                renderer.Render(board, Gameloop);
+
                 Positions nextMove;
                 if (board.NextTurn == State.P1)
                     nextMove = player1.GetLoopPosition(board);
@@ -25,7 +27,6 @@ namespace ghosts
                 if (!board.SetState(nextMove, board.NextTurn))
                     Console.WriteLine("That is not a legal move.");
 
-                renderer.Render(board, Gameloop);
             }
         }
         public void GameSetup(Board board, Renderer renderer, Player player1, Player player2)
