@@ -8,9 +8,15 @@ namespace ghosts
     //board will be set.
     class Tile
     {
+        //Initialize variables
+        private int TileColor;
+
         public Tile()
         {
 
         }
+
+        //"Getter-Setter"
+        public void SetColor(int x) => TileColor = x;
     }
 }

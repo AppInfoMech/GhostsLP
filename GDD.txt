@@ -70,6 +70,7 @@ Referências:
 	ARRAYS ------------------------ https://www.tutorialspoint.com/csharp/csharp_arrays.htm
 	MULTIDIMENSIONAL ARRAYS ------- https://www.tutorialspoint.com/csharp/csharp_multi_dimensional_arrays.htm
 	FOR --------------------------- https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/for
+	GETTER-SETTER ----------------- https://stackoverflow.com/questions/17881091/getter-and-setter-declaration-in-net
 
 
 Special Thanks to: 
