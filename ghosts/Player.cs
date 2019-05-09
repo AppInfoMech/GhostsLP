@@ -7,7 +7,8 @@ namespace ghosts
     class Player
     {
         /// <summary>
-        /// This function gets the value of the position of the object for the setup of the game.
+        /// This function gets the value of the position of the object for the 
+        /// setup of the game.
         /// </summary>
         /// <param name="board"></param>
         /// <returns></returns>
@@ -20,7 +21,8 @@ namespace ghosts
             return desiredCoordinate;
         }
         /// <summary>
-        ///  This function gets the value of the position of the object for the Gameloop.
+        ///  This function gets the value of the position of the object for 
+        ///  the Gameloop.
         /// </summary>
         /// <param name="board"></param>
         /// <returns></returns>
