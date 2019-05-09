@@ -64,6 +64,7 @@ namespace ghosts
             {
                 Console.WriteLine("RED GHOST VS BLUE GHOST. RED WINS.");
                 //PUT BLUE GHOST IN DUNGEON
+                //CHANGE WHERE PORTALS ARE
                 RedGhost = false;
                 BlueGhost = false;
             }
@@ -71,6 +72,7 @@ namespace ghosts
             {
                 Console.WriteLine("RED GHOST VS YELLOW GHOST. YELLOW WINS");
                 //PUT RED GHOST IN DUNGEON
+                //CHANGE WHERE PORTALS ARE
                 RedGhost = false;
                 YellowGhost = false;
             }
@@ -78,6 +80,7 @@ namespace ghosts
             {
                 Console.WriteLine("BLUE GHOST VS YELLOW GHOST. BLUE WINS");
                 //PUT YELLOW GHOST IN DUNGEON
+                //CHANGE WHERE PORTALS ARE
                 BlueGhost = false;
                 YellowGhost = false;
             }
