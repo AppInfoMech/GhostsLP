@@ -4,10 +4,13 @@ using System.Text;
 
 namespace ghosts
 {
-    class Ghost
+    public class Ghost
     {
-        //INITIALIZE VARIABLES
-        private int GhostType;
+        public int coorX;
+        public int coorY;
+
+        /* INITIALIZE VARIABLES
+        // private int GhostType;
 
         public Ghost(int GhostType)
         {
@@ -25,6 +28,28 @@ namespace ghosts
             {
                 //CENAS DO FANTASMA AMARELO
             }
-        }
+        } */
+    }
+
+    public class RedGhost : Ghost
+    {
+ 
+        bool spawnRed = true;
+        bool spawnBlue = false;
+        bool spawnYellow = false;
+    }
+
+    public class BlueGhost : Ghost
+    {
+        bool spawnRed = false;
+        bool spawnBlue = true;
+        bool spawnYellow = false;
+    }
+
+    public class YellowGhost : Ghost
+    {
+        bool spawnRed = false;
+        bool spawnBlue = false;
+        bool spawnYellow = true;
     }
 }

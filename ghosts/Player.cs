@@ -46,7 +46,7 @@ namespace ghosts
 
                 case 'd':
                     return desiredCoordinate;
-
+                     
                 case 'r':
                     return desiredCoordinate;
 
