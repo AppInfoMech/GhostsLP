@@ -14,7 +14,8 @@ namespace ghosts
             Player player2 = new Player();
             GameLoop gameLoop = new GameLoop();
 
-            /*  while (!winChecker.IsDraw(board) && winChecker.Check(board) == State.Undecided)
+            /*  while (!winChecker.IsDraw(board) && winChecker.Check(board) == 
+             *  State.Undecided)
               {
                   renderer.Render(board);
 
