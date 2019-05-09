@@ -11,7 +11,8 @@ namespace ghosts
         public GameLoop ()
         {
         }
-        public void  Gamestart(Board board, Renderer renderer, Player player1, Player player2)
+        public void  Gamestart(Board board, Renderer renderer, Player player1,
+            Player player2)
         {
             Gameloop = true;
             while (true)
@@ -29,7 +30,8 @@ namespace ghosts
 
             }
         }
-        public void GameSetup(Board board, Renderer renderer, Player player1, Player player2)
+        public void GameSetup(Board board, Renderer renderer, Player player1, 
+            Player player2)
         {
             for (int i = 0; i < 18; i++)
             {

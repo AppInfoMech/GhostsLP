@@ -13,20 +13,8 @@ namespace ghosts
             Player player1 = new Player();
             Player player2 = new Player();
             GameLoop gameLoop = new GameLoop();
+            MainMenu mainMenu = new MainMenu();
 
-            /*  while (!winChecker.IsDraw(board) && winChecker.Check(board) == State.Undecided)
-              {
-                  renderer.Render(board);
-
-                  Positions nextMove;
-                  if (board.NextTurn == State.X)
-                      nextMove = player1.GetPosition(board);
-                  else
-                      nextMove = player2.GetPosition(board);
-
-                  if (!board.SetState(nextMove, board.NextTurn))
-                      Console.WriteLine("That is not a legal move.");
-              }*/
             gameLoop.GameSetup(board, renderer, player1, player2);
             gameLoop.Gamestart(board, renderer, player1, player2);
 

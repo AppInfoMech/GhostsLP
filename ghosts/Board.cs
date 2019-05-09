@@ -6,10 +6,6 @@ namespace ghosts
 {
     class Board
     {
-        public bool up = false;
-        public bool down = false;
-        public bool right = false;
-        public bool left = false;
 
         private State[,] state;
         public State NextTurn { get;  private set; }
@@ -79,7 +75,7 @@ namespace ghosts
             tiles[4,4].SetColor(colors.Yellow());
 
             
-            state = new State[7, 7];
+            state = new State[6, 6];
             NextTurn = State.P1;
         }
 
@@ -98,28 +94,6 @@ namespace ghosts
             SwitchNextTurn();
             return true;
         }
-        /*public State Movestate(Positions position)
-        {
-         
-            if(up == true)
-            {
-                return state[position.Row + 1, position.Column];
-            }
-             if(down == true)
-             {
-                return state[position.Row - 1, position.Column];
-            }
-             if(right ==true)
-             {
-                return state[position.Row, position.Column + 1];
-            }
-            if (left == true)
-            {
-                return state[position.Row, position.Column - 1];
-            }
-
-                return state[position.Row +1 , position.Column];
-        }*/
 
         private void SwitchNextTurn()
         {
