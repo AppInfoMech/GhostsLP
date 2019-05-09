@@ -3,10 +3,15 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace ghosts
-{
+{/// <summary>
+/// This class is to setup the board of the game.
+/// </summary>
     class Board
     {
-
+        public bool up;
+        public bool down;
+        public bool right;
+        public bool left;
         private State[,] state;
         public State NextTurn { get;  private set; }
 
@@ -78,12 +83,22 @@ namespace ghosts
             state = new State[6, 6];
             NextTurn = State.P1;
         }
-
+        /// <summary>
+        /// Gets the player position
+        /// </summary>
+        /// <param name="position"></param>
+        /// <returns></returns>
         public State GetState(Positions position)
         {
             return state[position.Row, position.Column];
         }
-
+        /// <summary>
+        /// Sees if the player choice location is out of the board and
+        /// if there is collisons between player choices.
+        /// </summary>
+        /// <param name="position"></param>
+        /// <param name="newState"></param>
+        /// <returns></returns>
         public bool SetState(Positions position, State newState)
         {
             if (newState != NextTurn) return false;
@@ -94,7 +109,9 @@ namespace ghosts
             SwitchNextTurn();
             return true;
         }
-
+        /// <summary>
+        /// Switches the players turn
+        /// </summary>
         private void SwitchNextTurn()
         {
             if (NextTurn == State.P1) NextTurn = State.P2;

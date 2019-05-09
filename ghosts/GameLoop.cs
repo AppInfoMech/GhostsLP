@@ -4,6 +4,9 @@ using System.Text;
 
 namespace ghosts
 {
+    /// <summary>
+    /// This class is where all the game loops (gameplay).
+    /// </summary>
     class GameLoop
     {
         public bool Gameloop = false;

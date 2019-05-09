@@ -4,8 +4,16 @@ using System.Text;
 
 namespace ghosts
 {
+    /// <summary>
+    /// This class is to draw everything related to the game.
+    /// </summary>
     class Renderer
     {
+        /// <summary>
+        /// this is where it draws the board
+        /// </summary>
+        /// <param name="board"></param>
+        /// <param name="loop"></param>
         public void Render(Board board, bool loop)
         {
              char[,] symbols = new char[6, 6];
@@ -51,7 +59,11 @@ namespace ghosts
             Console.WriteLine($"| {symbols[4, 0]} | {symbols[4, 1]} | " +
                 $"{symbols[4, 2]} | {symbols[4, 3]} | {symbols[4, 4]} |   |");
         }
-
+        /// <summary>
+        /// Looks for the corrent player then gets his respective simbol
+        /// </summary>
+        /// <param name="state"></param>
+        /// <returns></returns>
         private char SymbolFor(State state)
         {
             switch (state)
@@ -61,7 +73,10 @@ namespace ghosts
                 default: return ' ';
             }
         }
-
+        /// <summary>
+        /// Its to draw the winning lines
+        /// </summary>
+        /// <param name="winner"></param>
         public void RenderResults(State winner)
         {
             switch (winner)

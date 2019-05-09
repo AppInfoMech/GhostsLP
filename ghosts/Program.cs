@@ -3,6 +3,9 @@ using System.Text;
 
 namespace ghosts
 {
+    /// <summary>
+    /// This is where the game will start to run.
+    /// </summary>
     class Program
     {
         static void Main(string[] args)
@@ -15,10 +18,12 @@ namespace ghosts
             GameLoop gameLoop = new GameLoop();
             MainMenu mainMenu = new MainMenu();
 
+            //loop to inicialize the ghosts
             gameLoop.GameSetup(board, renderer, player1, player2);
+            //gameplay loop
             gameLoop.Gamestart(board, renderer, player1, player2);
 
-
+            //drawing the board
             renderer.Render(board,gameLoop.Gameloop);
 
             Console.ReadKey();
