@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 namespace ghosts
 {
@@ -6,6 +7,7 @@ namespace ghosts
     {
         static void Main(string[] args)
         {
+            Console.OutputEncoding = Encoding.UTF8;
             Board board = new Board();
             WinChecker winChecker = new WinChecker();
             Renderer renderer = new Renderer();

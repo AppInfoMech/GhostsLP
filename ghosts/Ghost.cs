@@ -33,6 +33,7 @@ namespace ghosts
 
     public class RedGhost : Ghost
     {
+ 
         bool spawnRed = true;
         bool spawnBlue = false;
         bool spawnYellow = false;

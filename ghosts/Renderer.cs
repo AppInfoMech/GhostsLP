@@ -54,8 +54,8 @@ namespace ghosts
         {
             switch (state)
             {
-                case State.P2: return '2';
-                case State.P1: return '1';
+                case State.P2: return '\u1cc3';
+                case State.P1: return '\u1cc1';
                 default: return ' ';
             }
         }
