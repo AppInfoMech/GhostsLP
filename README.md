@@ -107,9 +107,9 @@
 
 * Colegas que ajudaram:
 
- * Guilherme Carvalho (21803633)
- * Lucas Viana (21805095)
- *  Rafael Castro e Silva (21805637)  
+  * Guilherme Carvalho (21803633)
+  * Lucas Viana (21805095)
+  * Rafael Castro e Silva (21805637)  
 
 
 * Código Aberto Reutilizado:
