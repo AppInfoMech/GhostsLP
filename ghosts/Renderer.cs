@@ -34,15 +34,20 @@ namespace ghosts
             Console.WriteLine("");
 
 
-            Console.WriteLine($"| {symbols[0, 0]} | {symbols[0, 1]} | {symbols[0, 2]} | {symbols[0, 3]} | {symbols[0, 4]} |   |");
+            Console.WriteLine($"| {symbols[0, 0]} | {symbols[0, 1]} | " +
+                $"{symbols[0, 2]} | {symbols[0, 3]} | {symbols[0, 4]} |   |");
             Console.WriteLine("+---+---+---+---+---+---+");
-            Console.WriteLine($"| {symbols[1, 0]} | {symbols[1, 1]} | {symbols[1, 2]} | {symbols[1, 3]} | {symbols[1, 4]} |   |");
+            Console.WriteLine($"| {symbols[1, 0]} | {symbols[1, 1]} | " +
+                $"{symbols[1, 2]} | {symbols[1, 3]} | {symbols[1, 4]} |   |");
             Console.WriteLine("+---+---+---+---+---+---+");
-            Console.WriteLine($"| {symbols[2, 0]} | {symbols[2, 1]} | {symbols[2, 2]} | {symbols[2, 3]} | {symbols[2, 4]} |   |");
+            Console.WriteLine($"| {symbols[2, 0]} | {symbols[2, 1]} | " +
+                $"{symbols[2, 2]} | {symbols[2, 3]} | {symbols[2, 4]} |   |");
             Console.WriteLine("+---+---+---+---+---+---+");
-            Console.WriteLine($"| {symbols[3, 0]} | {symbols[3, 1]} | {symbols[3, 2]} | {symbols[3, 3]} | {symbols[3, 4]} |   |");
+            Console.WriteLine($"| {symbols[3, 0]} | {symbols[3, 1]} | " +
+                $"{symbols[3, 2]} | {symbols[3, 3]} | {symbols[3, 4]} |   |");
             Console.WriteLine("+---+---+---+---+---+---+");
-            Console.WriteLine($"| {symbols[4, 0]} | {symbols[4, 1]} | {symbols[4, 2]} | {symbols[4, 3]} | {symbols[4, 4]} |   |");
+            Console.WriteLine($"| {symbols[4, 0]} | {symbols[4, 1]} | " +
+                $"{symbols[4, 2]} | {symbols[4, 3]} | {symbols[4, 4]} |   |");
         }
 
         private char SymbolFor(State state)
