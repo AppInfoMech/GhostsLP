@@ -4,6 +4,9 @@ using System.Text;
 
 namespace ghosts
 {
+    /// <summary>
+    /// This class is to get the positions of the corrent choice of players
+    /// </summary>
     class Player
     {
         /// <summary>
@@ -43,16 +46,20 @@ namespace ghosts
             switch (choice)
             {
                 case 'u':
+                    board.up = true;
                     desiredCoordinate.Row = desiredCoordinate.Row + 1;
                     return desiredCoordinate;
 
                 case 'd':
+                    desiredCoordinate.Row = desiredCoordinate.Row - 1;
                     return desiredCoordinate;
                      
                 case 'r':
+                    desiredCoordinate.Column = desiredCoordinate.Column + 1;
                     return desiredCoordinate;
 
                 case 'l':
+                    desiredCoordinate.Column = desiredCoordinate.Column - 1;
                     return desiredCoordinate;
 
                 default:
